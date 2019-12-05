@@ -1,0 +1,232 @@
+
+
+@font-face {
+	font-family: Vazir;
+	src: url('../fonts/Vazir.eot');
+	src: url('../fonts/Vazir.eot?#iefix') format('embedded-opentype'),
+	url('../fonts/Vazir.woff') format('woff'),
+	url('../fonts/Vazir.ttf') format('truetype');
+	font-weight: normal;
+}
+
+
+@font-face {
+	font-family: Vazir-bold;
+	src: url('../fonts/Vazir-bold.eot');
+	src: url('../fonts/Vazir-bold.eot?#iefix') format('embedded-opentype'),
+	url('../fonts/Vazir-bold.woff') format('woff'),
+	url('../fonts/Vazir-bold.ttf') format('truetype');
+}
+.intro-message{
+	float: right;
+}
+#title{
+	font-family: 'Vazir-bold';
+}
+.engtitle{
+	float: right;
+	font-size: 60px;
+	font-family: 'Vazir-bold';
+}
+.navbar-brand{
+	padding: 0px;
+}
+.navbar-brand img{
+	height: 45px;
+}
+@media(min-width:768px){
+	.navbar-header{
+		float: left;
+	}
+}
+.lead{
+	font-family: 'IRANSansWeb(FaNum)';
+	font-size: 17px;
+}
+li.navigate{
+	border: grey 3px;
+}
+.section-heading{
+	font-family: 'IRANSansWeb(FaNum)_Bold';
+	font-size: 30px;
+}
+
+.navbar-menu{
+	background-color: white;
+	padding: 20px;
+	box-shadow: 1px 1px 8px grey;
+}
+nav.navbar ul.navbar-nav li a{
+	color: grey;
+	font-family: 'Vazir Medium';
+	font-size: 18px;
+}
+.contactme{
+	font-family: 'Vazir Medium';
+}
+.foot{
+	font-family: 'Vazir';
+}
+#homapage{
+	background-image: linear-gradient(#d4387c ,#e47566);
+	color: whitesmoke;
+	border-radius: 100px;
+}
+
+.Burgermenu {
+	display: inline-block;
+	cursor: pointer;
+}
+
+.Bar1, .Bar2, .Bar3 {
+	width: 35px;
+	height: 5px;
+	background-color: grey;
+	margin: 6px 0;
+	transition: 0.4s;
+}
+
+/* Rotate first bar */
+.change .Bar1 {
+	-webkit-transform: rotate(-45deg) translate(-9px, 6px) ;
+	transform: rotate(-45deg) translate(-9px, 6px) ;
+}
+
+/* Fade out the second bar */
+.change .Bar2 {
+	opacity: 0;
+}
+
+/* Rotate last bar */
+.change .Bar3 {
+	-webkit-transform: rotate(45deg) translate(-8px, -8px) ;
+	transform: rotate(45deg) translate(-8px, -8px) ;
+}
+
+
+
+
+nav.navbar ul.navbar-nav li a:hover{
+	background-color: white;
+	color: #d4387c;
+	border-radius: 100px;
+	transition-duration: 0.5s;
+	border: 3px;
+	border-color: black;
+}
+.navbar{
+	margin-bottom: 0 !important;
+}
+.navbar-toggle{
+	color: black;
+	background-color: transparent;
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+.intro{
+	background: url(../img/intro-bg.jpg) no-repeat center center;
+	background-size: cover;
+	padding-top: 50px;
+	padding-bottom: 50px;
+	color: #fff;
+	text-align: center;
+}
+.intro-message{
+	padding-top: 20%;
+	padding-bottom: 10%;
+}
+.intro-message ul li a span i,.contact ul li a span i{
+	padding-right: 5px;
+}
+.intro-message h1{
+	font-size: 6em;
+	font-family: Bbadr;
+	text-shadow: 2px 2px 3px rgba(0,0,0,0.6);
+}
+.intro-message h4{
+	font-family: BYekan;
+	font-size: 25px;
+}
+.intro-devider{
+	width: 400px;
+}
+.content1{
+	background: #f5f2f2;
+	padding-top: 50px;
+}
+.content2{
+	background: #fff;
+	padding-top: 50px;
+}
+.myDevider{
+	float: right;
+	width: 200px;
+	border-top: 3px solid #e7e7e7;
+}
+.btn{
+	font-family: 'Vazir Medium';
+}
+.texttitle{
+	font-family: 'Vazir Medium';
+	font-size: 30px;
+}
+.text{
+	font-family: 'Vazir';
+	font-size: 17px;
+}
+.icon-bar-bb{
+	width: 35px;
+	height: 5px;
+	background-color: white;
+	margin: 6px 0;
+	z-index: 999;
+}
+.contact{
+	padding: 100px 30px 100px 0;
+	background: url(../img/intro-bg.jpg) no-repeat center center;
+	background-size: cover;
+	color: #fff;
+	text-shadow: 2px 2px 3px rgba(0,0,0,0.6);
+	font-synthesis: 3em;
+}
+.contact h2{
+	padding-right: 20px;
+	font-size: 50px;
+}
+.contact-social{
+	padding-top: 20px;
+}
+footer{
+	background: #000;
+	height: 80px;
+}
+.copyright{
+	padding-top: 15px;
+	color: #fff;
+}
+footer ul li a{
+	font-family: BYekan;
+	color: #fff;
+	font-size: 18px;
+}
+footer ul li a:hover{
+	text-decoration: none;
+	color: yellow;
+}
+.modal{
+	overflow-y: hidden;
+}
+.modal .modal-body img{
+	width: 50%;
+	height: 50%;
+}
+.modal .modal-body h4, .modal .modal-body p{
+	font-family: BYekan;
+}
+.modal-footer{
+	margin-top: 0 !important;
+}
+.alert{
+	margin-bottom: 0 !important;
+}
