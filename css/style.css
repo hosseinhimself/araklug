@@ -21,12 +21,12 @@
 	float: right;
 }
 #title{
-	font-family: 'Vazir-bold';
+	font-family: 'Vazir semibold';
 }
 .engtitle{
 	float: right;
 	font-size: 60px;
-	font-family: 'Vazir-bold';
+	font-family: 'Vazir semibold';
 }
 .navbar-brand{
 	padding: 0px;
@@ -40,14 +40,12 @@
 	}
 }
 .lead{
-	font-family: 'IRANSansWeb(FaNum)';
 	font-size: 17px;
 }
 li.navigate{
 	border: grey 3px;
 }
 .section-heading{
-	font-family: 'IRANSansWeb(FaNum)_Bold';
 	font-size: 30px;
 }
 
