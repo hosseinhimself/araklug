@@ -228,3 +228,7 @@ footer ul li a:hover{
 .alert{
 	margin-bottom: 0 !important;
 }
+
+.button-margin{
+	margin-bottom: 12px;
+}
