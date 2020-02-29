@@ -21,12 +21,12 @@
 	float: right;
 }
 #title{
-	font-family: 'Vazir semibold';
+	font-family: 'Vazir semibold' , sans-serif;
 }
 .engtitle{
 	float: right;
 	font-size: 60px;
-	font-family: 'Vazir semibold';
+	font-family: 'Vazir semibold', sans-serif;
 }
 .navbar-brand{
 	padding: 0px;
@@ -60,10 +60,10 @@ nav.navbar ul.navbar-nav li a{
 	font-size: 18px;
 }
 .contactme{
-	font-family: 'Vazir Medium';
+	font-family: 'Vazir Medium' , sans-serif;
 }
 .foot{
-	font-family: 'Vazir';
+	font-family: 'Vazir' , sans-serif;
 }
 #homapage{
 	background-image: linear-gradient(#d4387c ,#e47566);
@@ -139,11 +139,11 @@ nav.navbar ul.navbar-nav li a:hover{
 }
 .intro-message h1{
 	font-size: 6em;
-	font-family: Bbadr;
+	font-family: Bbadr , sans-serif;
 	text-shadow: 2px 2px 3px rgba(0,0,0,0.6);
 }
 .intro-message h4{
-	font-family: BYekan;
+	font-family: BYekan , sans-serif;
 	font-size: 25px;
 }
 .intro-devider{
@@ -163,14 +163,14 @@ nav.navbar ul.navbar-nav li a:hover{
 	border-top: 3px solid #e7e7e7;
 }
 .btn{
-	font-family: 'Vazir Medium';
+	font-family: 'Vazir Medium' , sans-serif;
 }
 .texttitle{
-	font-family: 'Vazir Medium';
+	font-family: 'Vazir Medium' , sans-serif;
 	font-size: 30px;
 }
 .text{
-	font-family: 'Vazir';
+	font-family: 'Vazir' , sans-serif;
 	font-size: 17px;
 }
 .icon-bar-bb{
@@ -204,7 +204,7 @@ footer{
 	color: #fff;
 }
 footer ul li a{
-	font-family: BYekan;
+	font-family: BYekan , sans-serif;
 	color: #fff;
 	font-size: 18px;
 }
